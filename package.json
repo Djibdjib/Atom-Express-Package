@@ -1,0 +1,20 @@
+{
+  "name": "express-snippets",
+  "main": "./lib/express-snippets",
+  "version": "0.0.0",
+  "description": "Express Atom Package",
+  "keywords": [
+    "Express"
+  ],
+  "activationCommands": {
+    "atom-workspace": "express-snippets:convert"
+  },
+  "repository": "https://github.com/atom/express-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "figlet": "1.2.0"
+  }
+}

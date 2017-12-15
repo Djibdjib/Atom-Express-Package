@@ -1,0 +1,24 @@
+'.source.php':
+    'Express debug':
+        'prefix': 'debug'
+        'body': '\\\\Express::debug($1)'
+
+    'Express url':
+        'prefix': 'url'
+        'body': '\\\\Express::url($1)'
+
+    'Express img':
+        'prefix': 'img'
+        'body': '\\\\Express::img($1)'
+
+    'Express get_url':
+        'prefix': 'get_url'
+        'body': '\\\\Express::url($1)'
+
+    'Express get_img':
+        'prefix': 'get_img'
+        'body': '\\\\Express::img($1)'
+
+    'Express get_canonical_url':
+        'prefix': 'get_canonical_url'
+        'body': '\\\\Express::img($1)'

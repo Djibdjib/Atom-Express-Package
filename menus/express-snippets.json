@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle express-snippets",
+        "command": "express-snippets:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "express-snippets",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "express-snippets:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
